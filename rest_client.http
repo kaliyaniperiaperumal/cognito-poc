@@ -1,0 +1,23 @@
+POST http://localhost:6000/auth/signup
+content-type: application/json
+
+{
+  "email": "testemailverifiedfive@example.com", 
+  "password": "Password@123",
+  "tenantId": "NAV201",
+  "role": "admin"
+}
+
+###
+
+POST http://localhost:6000/auth/login
+content-type: application/json
+
+{
+  "email": "testemailverifiedfive@example.com", 
+  "password": "Password@123",
+  "tenantId": "NAV200",
+  "role": "admin"
+}
+
+
